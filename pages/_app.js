@@ -1,7 +1,17 @@
 import '@styles/globals.css'
 
-function Application({ Component, pageProps }) {
-  return <Component {...pageProps} />
-}
+export const getStaticProps = async ({ res }) => {
+  // Set custom response headers
+  res.setHeader('X-Custom-Header', 'Hello World');
 
-export default Application
+  // Return props if needed
+  return {
+    props: {},
+  };
+};
+
+const Application = () => {
+  return <div>Example Page</div>;
+};
+
+export default Application;
