@@ -1,2 +1,1 @@
-{"default_applications": ["https://prateekpay.netlify.app/payment-apay.json"],
-"supported_origins": ["https://prateek2n00b.github.io/", "https://sage-sundae-aa96ce.netlify.app/", "https://prateekpay.netlify.app/"]}
+{"default_applications": ["https://prateekpay.netlify.app/payment-apay.json"]}
