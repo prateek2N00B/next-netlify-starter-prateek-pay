@@ -1,17 +1,27 @@
-import '@styles/globals.css'
+// _app.js
+import React from 'react';
+import App from 'next/app';
 
-export const getStaticProps = async ({ res }) => {
-  // Set custom response headers
-  res.setHeader('X-Custom-Header', 'Hello World');
+class MyApp extends App {
+  static async getInitialProps({ Component, ctx }) {
+    let pageProps = {};
 
-  // Return props if needed
-  return {
-    props: {},
-  };
-};
+    if (Component.getInitialProps) {
+      pageProps = await Component.getInitialProps(ctx);
+    }
 
-const Application = () => {
-  return <div>Example Page</div>;
-};
+    // Set custom response headers
+    if (ctx.res) {
+      ctx.res.setHeader('X-Custom-Header', 'Hello World');
+    }
 
-export default Application;
+    return { pageProps };
+  }
+
+  render() {
+    const { Component, pageProps } = this.props;
+    return <Component {...pageProps} />;
+  }
+}
+
+export default MyApp;
