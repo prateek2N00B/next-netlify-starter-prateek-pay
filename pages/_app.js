@@ -13,7 +13,7 @@ class MyApp extends App {
     // Set custom response headers
     if (ctx.res) {
       ctx.res.setHeader('X-Custom-Header', 'Hello World');
-      ctx.res.setHeader('Link', '<https://tez.google.com/pay/payment-method-manifest.json>; rel="payment-method-manifest"');
+      ctx.res.setHeader('Link', '<https://github.com/prateek2N00B/prateek2N00B.github.io/blob/main/payment-method-manifest.json>; rel="payment-method-manifest"');
     }
 
     return { pageProps };
