@@ -1,11 +1,11 @@
 {
   "related_applications": [{
     "platform": "play",
-    "id": "in.amazon.mShop.android.shopping",
+    "id": "com.google.android.apps.nbu.paisa.user",
     "min_version": "1",
     "fingerprints": [{
       "type": "sha256_cert",
-      "value": "2F:19:AD:EB:28:4E:B3:6F:7F:07:78:61:52:B9:A1:D1:4B:21:65:32:03:AD:0B:04:EB:BF:9C:73:AB:6D:76:25"
+      "value": "C1:7B:8E:3E:42:7B:FC:D9:9C:C6:5E:C2:4F:F5:3A:E9:17:42:42:92:D7:23:61:5B:74:63:64:68:E3:22:3C:0B"
     }]
   }]
 }
