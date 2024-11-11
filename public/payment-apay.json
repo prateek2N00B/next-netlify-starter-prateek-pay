@@ -1,11 +1,11 @@
 {
   "related_applications": [{
     "platform": "play",
-    "id": "com.google.android.apps.nbu.paisa.user",
+    "id": "com.example.intenttest",
     "min_version": "1",
     "fingerprints": [{
       "type": "sha256_cert",
-      "value": "C1:7B:8E:3E:42:7B:FC:D9:9C:C6:5E:C2:4F:F5:3A:E9:17:42:42:92:D7:23:61:5B:74:63:64:68:E3:22:3C:0B"
+      "value": "FC:C5:B4:F2:2C:7D:30:14:71:CF:ED:E6:A8:A4:FC:51:AE:7E:8A:3B:D2:49:61:04:7E:2D:46:F7:3A:A8:1D:10"
     }]
   }]
 }
