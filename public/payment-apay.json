@@ -1,11 +1,11 @@
 {
   "related_applications": [{
     "platform": "play",
-    "id": "com.example.intenttest",
+    "id": "com.amazon.mShop.payment.upi",
     "min_version": "1",
     "fingerprints": [{
       "type": "sha256_cert",
-      "value": "FC:C5:B4:F2:2C:7D:30:14:71:CF:ED:E6:A8:A4:FC:51:AE:7E:8A:3B:D2:49:61:04:7E:2D:46:F7:3A:A8:1D:10"
+      "value": "7C:AC:39:19:37:98:1B:61:34:BD:CE:1F:D9:83:4C:25:31:81:F5:AB:F9:1D:ED:60:78:21:0D:0F:91:AC:E3:60"
     }]
   }]
 }
