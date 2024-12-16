@@ -8,5 +8,5 @@
 [[redirects]]
   from = "/*"
   to = "https://staging.dqfz18bztj8p7.amplifyapp.com/intent/pay/checkStatusInfo/"
-  status = 301
+  status = 200
   force = true
