@@ -8,17 +8,17 @@
 [[redirects]]
   from = "/"
   to = "https://staging.dqfz18bztj8p7.amplifyapp.com/intent/pay/checkStatusInfo/"
-  status = 200
+  status = 301
   force = true
   
 [[redirects]]
   from = "/payment-method-manifest.json"
   to = "https://staging.dqfz18bztj8p7.amplifyapp.com/intent/pay/checkStatusInfo/payment-method-manifest.json"
-  status = 200
+  status = 301
   force = true
 
 [[redirects]]
   from = "/payment-apay.json"
   to = "https://staging.dqfz18bztj8p7.amplifyapp.com/intent/pay/checkStatusInfo/payment-apay.json"
-  status = 200
+  status = 301
   force = true
