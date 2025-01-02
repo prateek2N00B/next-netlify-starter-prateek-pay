@@ -6,19 +6,19 @@
   package = "@netlify/plugin-nextjs"
 
 [[redirects]]
-  from = "/intent/pay/checkStatus/"
+  from = "/"
   to = "https://staging.dqfz18bztj8p7.amplifyapp.com/intent/pay/checkStatusInfo"
   status = 301
   force = true
   
 [[redirects]]
-  from = "/intent/pay/checkStatus/payment-method-manifest.json"
+  from = "/payment-method-manifest.json"
   to = "https://staging.dqfz18bztj8p7.amplifyapp.com/intent/pay/checkStatusInfo/payment-method-manifest.json"
   status = 301
   force = true
 
 [[redirects]]
-  from = "/intent/pay/checkStatus/payment-apay.json"
+  from = "/checkStatus/payment-apay.json"
   to = "https://staging.dqfz18bztj8p7.amplifyapp.com/intent/pay/checkStatusInfo/payment-apay.json"
   status = 301
   force = true
