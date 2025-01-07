@@ -20,5 +20,5 @@
 [[redirects]]
   from = "/intent/pay/checkStatus/payment-apay.json"
   to = "https://staging.dqfz18bztj8p7.amplifyapp.com/intent/pay/checkStatus/payment-apay.json"
-  status = 302
+  status = 301
   force = true
