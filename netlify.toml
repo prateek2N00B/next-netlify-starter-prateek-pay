@@ -7,7 +7,7 @@
 
 [[redirects]]
   from = "/intent/pay/checkStatus"
-  to = "https://amazonpay.integ.amazon.com/intent/pay/checkStatus"
+  to = "https://amazonpay.integ.amazon.com/intent/pay/checkStatus/"
   status = 301
   force = true  
   
