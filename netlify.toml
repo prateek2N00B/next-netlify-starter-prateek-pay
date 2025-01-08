@@ -13,7 +13,7 @@
   
 [[redirects]]
   from = "/intent/pay/checkStatus/"
-  to = "https://staging.dqfz18bztj8p7.amplifyapp.com/intent/pay/checkStatus"
+  to = "https://amazonpay.integ.amazon.com/intent/pay/checkStatus/"
   status = 301
   force = true
   
